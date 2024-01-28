@@ -1,0 +1,62 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <title>Navbar</title>
+         
+        <style>
+            body{
+                background-color:blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position: sticky;z-index:1000;top:0;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand" href="#">Ramya</a></div-->
+                <img src="https://img.freepik.com/premium-vector/smartphone-app-icon-bag-online-shopping-logo-design_92167-614.jpg?w=740" width="150px" height="150px" id="img1"></div>
+            <div class="navbar-collapse collapse" id="mynavbar">
+                <ul class="nav navbar-nav">
+                    
+                     <li><a href="home.html">Home</a></li>
+                     <li><a href="about us.html">About Us</a></li>
+                     <li><a href="login.html">Login</a></li>
+                     
+                     <li><a href="account.html">Account</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div id="account">
+            <section id="acc"></div>
+            <center>
+                <span>
+                    <b> <h1  style="font-size: 50px;position: relative;left: -100px; top:0px"> Add To Cart </h1></b>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl-uZFrFXn9lDas_oeE6S59FZMq4U45MLbmA&usqp=CAU" width="200px" height="200px" id="img5" >
+                <img Onclick="increase()" src="data:image/png;base64,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" height="100px" width="100px" id="img6">
+                <img Onclick="decrease()" src="https://clipart-library.com/data_images/148241.jpg" height="100px" width="100px" id="img7" >
+                
+                
+                   
+                </span>
+                <div>
+                    <label style="font-size: 50px;position: relative;left: -140px">Cart:</label></div>
+                <div id="box" style="font-size: 50px;position: relative;left: -60px;top:-75px">0 </div>
+                
+            </center>
+            
+             
+        </div>
+    </body>
+</html>

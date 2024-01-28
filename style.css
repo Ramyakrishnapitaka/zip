@@ -1,0 +1,67 @@
+#img1{
+    position: relative;
+    top: 0px;
+    left: -10px;
+    border-radius: 50%;
+}
+#img2{
+    position: relative;
+    animation-name: im1;
+    animation:im1 20s infinite;
+    
+}
+@keyframes im1{
+    0%{left: 0px; top:0px;}
+    50%{left: 300px; top: 0px;}
+    75%{left: -250px;top: -30px;}
+    
+    
+}
+#img3{
+    position: relative;
+    animation-name: im2;
+    animation:im2 10s infinite;
+    
+}
+@keyframes im2{
+    0%{left: 0px; top:0px;}
+    50%{left: 300px; top: 0px;}
+    75%{left: -250px;top: 30px;}
+    
+    
+}
+#img4{
+    position: relative;
+    animation-name: im3;
+    animation:im3 10s infinite;
+    
+}
+@keyframes im3{
+    0%{left: 0px; top:0px;}
+    50%{left: 300px; top: 0px;}
+    75%{left: -250px;top: 60px;}
+    
+    
+}
+#heading1:hover,#heading2:hover,#heading3:hover{
+    background: yellow;
+    
+}
+fieldset{
+    background-color: beige;
+}
+#img6{
+    position: relative;
+    left: -380px;
+    top:10px;
+}
+#img7{
+    position: relative;
+    left: -30px;
+    top:10px;
+}
+#hide{
+    display: none;
+    font-style: italic;
+    font-size: 20px;
+}
